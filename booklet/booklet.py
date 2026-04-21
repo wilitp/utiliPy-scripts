@@ -8,7 +8,6 @@ you can adjust signature sizes.
 import PyPDF2
 import re, sys
 
-BLANK_PAGE = PyPDF2.PageObject()
 
 signature = None
 starting_offset = 0
